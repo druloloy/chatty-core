@@ -1,0 +1,23 @@
+{
+  "name": "chatty-core",
+  "version": "0.1.0",
+  "description": "An AI chatbot core, using Pinecone Vector Database and Langchain framework.",
+  "main": "index.js",
+  "keywords": [
+    "chatbot",
+    "ai",
+    "gpt"
+  ],
+  "author": "druloloy",
+  "license": "MIT",
+  "dependencies": {
+    "@pinecone-database/pinecone": "^0.0.10",
+    "langchain": "^0.0.48",
+    "openai": "^3.2.1",
+    "pdfjs-dist": "^3.5.141"
+  },
+  "type": "module",
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
